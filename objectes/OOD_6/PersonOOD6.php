@@ -26,13 +26,13 @@ class PersonOOD6 extends LivingBeing {
 
     public function print()
     {
-      echo "I'm"." ".  $this->get_Fullname();
+      echo "I'm"." ".  $this->get_Fullname().'</br>';
     echo "I'm"." ". parent::get_Age()." and ".'</br>';
-    echo "I'm"." ". parent::get_Status().'</br>';
-    echo "I'm"." ". parent::get_Gender().'</br>';
-    echo "I'm"." ". parent::get_Eating_Capability().'</br>';
-    echo "I'm"." ". parent::get_Moving_Capability().'</br>';
-    echo "I'm"." ". parent::get_Speaking_Capability().'</br>';
+    echo "My status is"." ". parent::get_Status().'</br>';
+    echo "My gender is"." ". parent::get_Gender().'</br>';
+    echo "eat"." ". parent::get_Eating_Capability().'</br>';
+    echo "and"." ". parent::get_Moving_Capability().'</br>';
+    echo "I can talk a"." ". parent::get_Speaking_Capability().'</br>';
       }
     }
 
