@@ -9,13 +9,21 @@ public function setStudyField($studyField)
 }
 
 function get_studyField() {
-  return $this->$studyField;
+  return $this->studyField;
 }
+
+/*
+public function __construct($name,$dni,$studyField)
+{
+  parent::__construct($name,$dni);
+  $this->studyField=$studyField;
+  }
+  */
 
 public function print()//overriding print method from parent class Person
 {
 parent::print();//calling print method from parent class Person
-echo $this->studyField.'<br>';
+echo "This studen is enrolled in ". $this->studyField.'<br>';
 }
 }
 ?>
