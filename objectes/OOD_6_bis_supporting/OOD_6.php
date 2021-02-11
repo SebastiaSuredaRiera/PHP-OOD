@@ -16,7 +16,7 @@ try {
   $Cat1->oneYearOlder();
 }
 catch (Exception $e) {
-    echo "S'ha capturat l'excepció: " . $e->getMessage() . "<br>";
+    echo "Exception message is: " . $e->getMessage() . "<br>";
 }
 
 
@@ -33,7 +33,7 @@ try {
   $Cat2->oneYearOlder();
 }
 catch (Exception $e) {
-    echo "S'ha capturat l'excepció: " . $e->getMessage() . "<br>";
+    echo "Exception message is: " . $e->getMessage() . "<br>";
 }
 
  ?>

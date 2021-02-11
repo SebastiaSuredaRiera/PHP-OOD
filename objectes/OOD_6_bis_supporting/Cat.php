@@ -44,9 +44,9 @@ function oneYearOlder()
 }
 
 public function print () {
-echo $this->get_healthCondition();
-echo $this->get_bestSense();
-echo "I'm"." ". parent::get_Age()." and ".'</br>';
+echo "I'm a cat in ". $this->get_healthCondition().' condition of health</br>';
+echo "and my best sense is ".$this->get_bestSense().' my age is ';
+echo parent::get_Age()."<br>";
 }
 
 
