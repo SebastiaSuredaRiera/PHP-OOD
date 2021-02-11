@@ -6,16 +6,11 @@
 <?php
 
 require "LivingBeing.php";
-require "PersonOOD6.php";
 require "Cat.php";
 
 //$person1=new PersonOOD6('Sebastia Sureda Riera',20);//using __construct from Person
 $Cat1=new Cat (HEATH_CONDITION[0],LivingBeing::BEST_SENSE[0],50);
 $Cat1->print();
-
-
-//echo $person1->print();
-
 try {
 
   $Cat1->oneYearOlder();
@@ -23,6 +18,9 @@ try {
 catch (Exception $e) {
     echo "S'ha capturat l'excepció: " . $e->getMessage() . "<br>";
 }
+
+
+
 
 $Cat2=new Cat (HEATH_CONDITION[0],LivingBeing::BEST_SENSE[0],53);
 $Cat2->print();
